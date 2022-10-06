@@ -53,7 +53,7 @@
         <hr />
       </section>
       <section class="bg-secondary container text-light py-3 rounded">
-        <form>
+        <form id="formContacto">
           <div class="mb-3">
             <label for="nombreContacto" class="form-label"
               >Nombre</label
@@ -64,6 +64,9 @@
               id="nombreContacto"
               placeholder="Juan Perez"
             />
+            <div id="nombreContacto__Feedback"  class="invalid-feedback">
+              Ingrese un nombre valido.
+            </div>
           </div>
           <div class="mb-3">
             <label for="telefonoContacto" class="form-label"
@@ -75,6 +78,9 @@
               id="telefonoContacto"
               placeholder="381 510 8631"
             />
+            <div id="telefonoContacto__Feedback"  class="invalid-feedback">
+              Ingrese un nombre valido.
+            </div>
           </div>
           <div class="mb-3">
             <label for="emailContacto" class="form-label"
@@ -86,6 +92,9 @@
               id="emailContacto"
               placeholder="JuanPerez@gmail.com"
             />
+            <div id="emailContacto__Feedback"  class="invalid-feedback">
+              Ingrese un nombre valido.
+            </div>
           </div>
           <div class="mb-3">
             <label for="imagenContacto" class="form-label"
@@ -97,6 +106,9 @@
               id="imagenContacto"
               placeholder="URL"
             />
+            <div id="imagenContacto__Feedback"  class="invalid-feedback">
+              Ingrese un nombre valido.
+            </div>
           </div>
           <div class="mb-3">
             <label for="notasContacto" class="form-label">Notas</label>
@@ -137,6 +149,6 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/admin.js"></script>
+    <script type="module" src="./js/admin.js"></script>
   </body>
 </html>
